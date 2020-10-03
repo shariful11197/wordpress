@@ -1,0 +1,147 @@
+*{padding: 0px;
+	margin: 0px;}
+	body{
+		font-family: sans-serif;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	h1, h2, h3, h4, h5, h6{
+		font-family: serif;
+	}
+	.container{
+		width: 100%;
+		height: 100vh;
+		/*border-radius: 100%;*/
+	}
+		
+	.login-box{
+		width: 580px;
+		margin: 80px auto 0px;
+		background: #0E6251;
+		text-align: center;
+
+	}
+	.ggg{
+		color:#fff;
+	}
+	.login-box .avater{
+		width: 120px;
+		height: 120px;
+		border-radius: 100px;
+		margin: 50px 0px 25px;
+	}
+	.login-box .login-form{
+		width: 100%;
+		padding: 20px 50px;
+		text-align: left;
+		color: #fff;
+	}
+	.login-box .login-form .form-group{
+		width: 100%;
+		margin: 10px 0px 20px;
+		display: block;
+	}
+	.login-box .login-form .form-group label{
+		font-size: 14px;
+		font-weight: 400px;
+		line-height: 28px;
+		display: block;
+		text-transform: uppercase;
+	}
+	.login-box .login-form .form-group .form-control{
+		width: 78%;
+		padding: 10px;
+
+	}
+	.login-box .login-form .form-group .btn{
+		padding: 10px 45px;
+		background: #08c;
+		color: #fff;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: 700;
+		/*width: 120px;*/
+		/*height: 120px;*/
+		border-radius: 25px;
+		text-decoration: none;
+
+	}
+
+	.login-box .login-form .form-group .btn:hover{
+		background: green;
+		animation: paused;
+
+	}
+	.login-box .login-form .form-group .forget{
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 400;
+		color: #000;
+		text-decoration: none;
+	}
+	.login-box .login-form .form-group .forget:hover{
+		color: ##3349FF;
+
+	}
+	.fb{position: fixed;
+		top: 20%;
+		right: -530px;
+		transition:
+		
+	}
+	.fb:hover{
+		right: -10px;
+	}
+
+	/*socail-section*/
+	.socail-section{
+		width: 100%;
+		
+		/*padding: 48px;*/
+}
+.social{
+	/*background:#283747;*/
+	/*display:inline-block;*/
+}
+
+
+.social li{
+	list-style: none;
+}
+
+.social li a{
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	/*background:#283747;*/
+	color: #3498DB;
+	padding: 10px;
+	font-size: 35px;
+	border-radius: 100%;
+}
+.social li a .fa-facebook:hover{
+	background: #0000FF;
+	color: #fff;
+transition:1s;
+}
+.social li a .fa-youtube:hover{
+	background: #E02016;
+	color: #fff;
+transition:1s;
+}
+.social li a .fa-twitter:hover{
+	background: #26E7E9;
+	color: #fff;
+transition:1s;
+}
+.social li a .fa-skype:hover{
+	background: #0175C4;
+	color: #fff;
+transition:1s;
+}
+.social li a .fa-vimeo:hover{
+	background: #0A9CC1;
+	color: #fff;
+transition:1s;
+}
